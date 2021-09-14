@@ -1,9 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 // import {Inc, Dec} from './actions';
-import AnotherComp from "./anotherComp";
+import AnotherComp from "./components/anotherComp";
 
-import "./App.css";
 import UserProvider, { userContext } from "./context/userContext";
 import Count from "./components/count";
 
